@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Escolar - Semana</title>
+    <meta name="description" content="Confira o cardápio semanal da merenda escolar, dia a dia, com fotos e opções vegetarianas.">
+    <link rel="icon" href="logo.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="./style.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-GF8HCH6G14');
+</script>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <div class="icone-bandeja">🍽</div>
+            <h1>Cardápio Escolar</h1>
+        </div>
+
+        <nav>
+            <a href="#" onclick="showTab('inicio')">Início</a>
+            <a href="#" onclick="showTab('cardapio')">Cardápio</a>
+            <a href="#" onclick="showTab('sobre')">Sobre</a>
+            <a href="#" onclick="showTab('equipe')">Equipe</a>
+        </nav>
+    </header>
+
+
+    <!-- ======================= INÍCIO ======================= -->
+    <div class="tab active" id="inicio">
+        <section class="hero">
+            <div class="hero-text">
+                <span class="eyebrow">🗓 Semana de 24 a 28 de março</span>
+                <h2>O que tem pra almoço hoje?</h2>
+                <p>Confira diariamente o que será servido na alimentação escolar desta semana — prato principal, acompanhamento e sobremesa, tudo em um só lugar.</p>
+                <button class="btn" onclick="showTab('cardapio')">Ver Cardápio da Semana</button>
+            </div>
+
+            <div class="hero-tray">
+                <img src="logo.jpg" class="hero-img" alt="Ilustração de um prato de arroz, feijão e frango grelhado cercado por mãos coloridas, com o texto Cardápio Escolar — Alimentando o presente, construindo o futuro">
+            </div>
+        </section>
+    </div>
+
+
+
+    <!-- ======================= CARDÁPIO ======================= -->
+    <div class="tab" id="cardapio">
+        <section>
+            <div class="title">
+                <h2>Cardápio da Semana</h2>
+                <p>⚠️AVISO: As imagens apresentadas são meramente ilutrativas e não representa exatamente a refeicão verdadeira</p>
+            </div>
+
+            <div class="container">
+
+                <!-- Segunda -->
+                <div class="dia-card">
+                    <div class="dia-nome">Seg <span class="dia-data">05/09</span></div>
+
+                    <div class="card-foto">
+                        <img src="Arroz e feijão com frango assado (sassami).jpg" alt="ARROZ E FEIJÃO, FRANGO ASSADO (sassami)">
+                    </div>
+
+                    <div class="refeicao-info">
+                        <h3>Arroz, Feijão e frango assado (sassami)</h3>
+                        <p><b>Acompanhamento:</b> Purê de cenoura ou cenoura em rodelas</p>
+                        <p><b></b></p>
+                    </div>
+                </div>
+
+                <!-- Terça -->
+                <div class="dia-card">
+                    <div class="dia-nome">Ter <span class="dia-data">06/09</span></div>
+
+                    <div class="card-foto">
+                        <img src="Arroz carreteiro.jpg" alt="Arroz carreteiro">
+                    </div>
+
+                    <div class="refeicao-info">
+                        <h3>Arroz carreteiro</h3>
+                        <p><b>Acompanhamento:</b> Duedo de Legumes (batata e cenoura)</p>
+                        <p><b></b></p>
+                    </div>
+                </div>
+
+                <!-- Quarta -->
+                <div class="dia-card">
+                    <div class="dia-nome">Qua <span class="dia-data">07/09</span></div>
+
+                    <div class="card-foto">
+                        <img src="Macarrãoao molho de tomate com frango em cubos.jpg" alt="macarrão ao molho">
+                    </div>
+
+                    <div class="refeicao-info">
+                        <h3>Macarrão ao molho de tomate com frango em cubos ou carne bovina</h3>
+                        <p><b>Acompanhamento:</b> Salada de Acelga (temperada com limão)</p>
+                        <p><b></b></p>
+                    </div>
+                </div>
+
+                <!-- Quinta -->
+                <div class="dia-card">
+                    <div class="dia-nome">Qui <span class="dia-data">08/09</span></div>
+
+                    <div class="card-foto">
+                        <img src="Arroz e feijão carioca com ovos mexidos.jpg" alt="Arroz e feijão carioca">
+                    </div>
+
+                    <div class="refeicao-info">
+                        <h3>Arroz, Feijão e ovos mexidos</h3>
+                        <p><b>Acompanhamento:</b> Salada de Tomate e Cenoura (temperado com limão)</p>
+                        <p><b>Sobremesa:</b> Banana</p>
+                    </div>
+                </div>
+
+                <!-- Sexta -->
+                <div class="dia-card">
+                    <div class="dia-nome">Sex <span class="dia-data">09/09</span></div>
+
+                    <div class="card-foto">
+                        <img src="Arroz e feijão com carne suina cebolada.jpg" alt="Arroz e feijão com carne suina">
+                    </div>
+
+                    <div class="refeicao-info">
+                        <h3>Arroz, Feijão e Carne Suina Acebolada</h3>
+                        <p><b>Acompanhamento:</b> Abobóra em cubos (cozidos)</p>
+                        <p><b>Sobremesa:</b> Maça</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+
+
+    <!-- ======================= SOBRE ======================= -->
+    <div class="tab" id="sobre">
+        <section class="hero hero-solo">
+            <div class="hero-text">
+                <span class="eyebrow">💬 Como funciona</span>
+                <h2>Sobre o Cardápio</h2>
+                <p>Este sistema foi criado para facilitar a visualização do cardápio escolar da semana, atualizado pela coordenação de alimentação buscando sempre uma refeição saudável, saborosa e balanceada.</p>
+                <div class="about-stat">📅 Atualizado toda semana</div>
+            </div>
+        </section>
+    </div>
+
+    <!-- EQUIPE -->
+    <div class="tab" id="equipe">
+        <section>
+            <div class="title">
+                <h2>Equipe</h2>
+                <p>Profissionais altamente qualificados.</p>
+            </div>
+
+            <div class="team">
+                <div class="member">
+                    <div class="avatar">
+                        <img src="Nicole.jpeg" alt="Nicole Lorrayne" style="object-position: center 55%;" onerror="this.style.display='none'">
+                        <span class="avatar-fallback">NL</span>
+                    </div>
+                    <h3>Nicole Lorrayne</h3>
+                    <span>Projeto Smart/desenvolvimento web</span>
+                </div>
+
+                <div class="member">
+                    <div class="avatar">
+                        <img src="Anna C.jpeg" alt="Anna Clara" style="object-position: center;" onerror="this.style.display='none'">
+                        <span class="avatar-fallback">AC</span>
+                    </div>
+                    <h3>Anna Clara</h3>
+                    <span>Matriz CSD/auxiliar desenvolvimento web</span>
+                </div>
+
+                <div class="member">
+                    <div class="avatar">
+                        <img src="Ana C.jpeg" alt="Ana Caroline" style="object-position: center;" onerror="this.style.display='none'">
+                        <span class="avatar-fallback">AC</span>
+                    </div>
+                    <h3>Ana Caroline</h3>
+                    <span>Documentação</span>
+                </div>
+
+                <div class="member">
+                    <div class="avatar">
+                        <img src="Leydi.jpeg" alt="Leydi Lizbeht" style="object-position: center;" onerror="this.style.display='none'">
+                        <span class="avatar-fallback">LL</span>
+                    </div>
+                    <h3>Leydi Lizbeht</h3>
+                    <span>Stakeholders/Documentação</span>
+                </div>
+
+                <div class="member">
+                    <div class="avatar">
+                        <img src="Pedro R.jpeg" alt="Pedro Rodrigues" style="object-position: center;" onerror="this.style.display='none'">
+                        <span class="avatar-fallback">PR</span>
+                    </div>
+                    <h3>Pedro Rodrigues</h3>
+                    <span>Banco de Dados do Site</span>
+                </div>
+
+                <div class="member">
+                    <div class="avatar">
+                        <img src="pedro b.jpeg" alt="Pedro Barboza" style="object-position: center;" onerror="this.style.display='none'">
+                        <span class="avatar-fallback">PB</span>
+                    </div>
+                    <h3>Pedro Barboza</h3>
+                    <span>Auxiliar de banco de dados</span>
+                </div>
+
+                <div class="member">
+                    <div class="avatar">
+                        <img src="Alysson.jpeg" alt="Alysson Lopes" style="object-position: center;" onerror="this.style.display='none'">
+                        <span class="avatar-fallback">AL</span>
+                    </div>
+                    <h3>Alysson Lopes</h3>
+                    <span>Auxiliar de banco de dados</span>
+                </div>
+
+                <div class="member">
+                    <div class="avatar">
+                        <img src="Gustavo.jpeg" alt="Gustavo Lima" style="object-position: center;" onerror="this.style.display='none'">
+                        <span class="avatar-fallback">GL</span>
+                    </div>
+                    <h3>Gustavo Lima</h3>
+                    <span>Banco de Dados do Site</span>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Botão Flutuante -->
+    <button class="btn-sugestao" onclick="abrirSugestao()">💡 Sugerir Prato</button>
+
+    <!-- Janela Modal Oculta -->
+    <div id="telaSugestao" class="tela-overlay">
+
+        <div id="conteudoForm">
+            <h2>Enviar Sugestão</h2>
+            <p style="color: #5c5450; margin:0;">O que você gostaria de ver no cardápio?</p>
+
+            <div class="form-sugestao">
+                <textarea id="txtSugestao" placeholder="Ex: Feijoada, Lasanha..."></textarea>
+                <div class="btns-container">
+                    <button class="btn-voltar" onclick="fecharTudo()">Cancelar</button>
+                    <button class="btn-enviar" onclick="processarEnvio()">Enviar Agora</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="msgSucesso" style="display: none;">
+            <div class="icon-check">✔</div>
+            <h2 style="margin-top:0;">Sugestão Enviada!</h2>
+            <p style="color: #5c5450;">Obrigado por participar!</p>
+            <br>
+            <button class="btn-enviar" style="max-width: 220px; margin: 0 auto; display:block;" onclick="fecharTudo()">Voltar ao Cardápio</button>
+        </div>
+
+    </div>
+
+
+    <!-- ======================= RODAPÉ ======================= -->
+    <footer>© 2026 Merenda Escolar • Sistema de Cardápio</footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
